@@ -5,6 +5,8 @@ import com.exam.joseAugusto.dto.EquipmentDto;
 import com.exam.joseAugusto.entity.Equipment;
 import com.exam.joseAugusto.service.EquipmentService;
 import jakarta.validation.Valid;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,6 +18,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/equipment")
+@NoArgsConstructor
+@AllArgsConstructor
 public class EquipmentController {
 
     @Autowired

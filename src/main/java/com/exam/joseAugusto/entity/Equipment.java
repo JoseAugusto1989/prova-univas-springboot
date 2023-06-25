@@ -8,6 +8,8 @@ import java.util.Date;
 @Entity
 @Data
 @Table(name = "EQUIPAMENTO")
+@NoArgsConstructor
+@AllArgsConstructor
 public class Equipment {
 
     @Id
